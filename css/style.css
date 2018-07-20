@@ -1,0 +1,110 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.banner {
+  background-color: tomato;
+  margin:0;
+  padding:30px;
+  text-align: center;
+  color:white;
+  font-size: 1.75em;
+}
+
+.info {
+  margin:auto;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 50px;
+  border-bottom: solid 5px tomato;
+  width: 100%;
+}
+
+.info > h4 {
+  color:grey;
+  width:60%;
+  font-size: .95em;
+  margin: auto;
+}
+legend {
+  font-size: 1.25em;
+}
+
+.contact-info {
+  margin-top: 3px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+fieldset {
+  width:95%;
+  margin: auto;
+  display: flex;
+  border: none;
+  border-top :solid 3px tomato;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 1.5em;
+  color:#464646;
+}
+
+input, select, .textbox, .button {
+  border:none;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 1em;
+  font-style: italic;
+  box-shadow: inset 1px 1px 3px lightgrey;
+}
+
+select, .textbox {
+  height:58px;
+  color:#8e8e8e;
+  font-style: normal;
+}
+
+::placeholder {
+  color:#8e8e8e;
+}
+
+#zip {
+  width: 200px;;
+}
+
+.boxes {
+  display: inline;
+}
+
+.boxes > label {
+  font-size: 1em;
+}
+
+.instructions {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-top:20px ;
+}
+
+.button {
+  height: 70px;
+  width:80%;
+  margin:auto;
+  background-color: #47ffb1;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#copy {
+  margin: auto;
+  padding: 20px;
+  color:#8e8e8e;
+}
