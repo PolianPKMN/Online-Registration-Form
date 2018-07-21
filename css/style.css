@@ -33,10 +33,11 @@ legend {
 }
 
 .contact-info {
-  margin-top: 3px;
   display: flex;
   width: 100%;
   flex-direction: column;
+  background-color: #f0f5ff;
+  padding-bottom: 10px;
 }
 
 fieldset {
@@ -107,4 +108,38 @@ select, .textbox {
   margin: auto;
   padding: 20px;
   color:#8e8e8e;
+  text-align: center;
+}
+
+.small-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+input:focus, select:focus {
+  outline: none;
+  background-color: lightyellow;
+}
+
+@media (min-width:768px) {
+  .contact-info {
+    width:770px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .small-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  input[type="text"], input[type="email"], input[type="telephone"] {
+    width:65%;
+  }
+  #state, #zip {
+    justify-content:center;
+  }
+  label {
+    padding-right: 5px;
+  }
 }
