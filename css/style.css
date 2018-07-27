@@ -128,18 +128,30 @@ input:focus, select:focus {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
+
   .small-cont {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  input[type="text"], input[type="email"], input[type="telephone"] {
+
+  .zip-cont {
+    justify-content: flex-start;
+  }
+
+  input[type="text"], input[type="email"], input[type="tel"] {
     width:65%;
   }
-  #state, #zip {
-    justify-content:center;
+
+  #state {
+    width:70.5%;
   }
   label {
     padding-right: 5px;
   }
+
+  #zip {
+    margin-left: 16%;
+  }
+
 }
